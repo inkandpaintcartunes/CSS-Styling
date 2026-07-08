@@ -1,0 +1,65 @@
+body{
+    background-color:lightblue
+}
+p {
+  font-size: 150%;
+}
+
+.bold-word {
+    font-weight: bold;
+}
+.container {
+  /* Set the maximum width for desktop screens */
+  max-width: 1200px; 
+  
+  /* Prevent content from touching screen edges on mobile */
+  width: 90%; 
+  
+  /* Perfectly center the container horizontally */
+  margin: 0 auto; 
+  
+  /* Add breathing room inside the container borders */
+  padding: 20px; 
+  
+  /* Optional: Visual styling to see your box structure */
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.container2 {
+  /* Set the maximum width for desktop screens */
+  max-width: 1200px; 
+  
+  /* Prevent content from touching screen edges on mobile */
+  width: 90%; 
+  
+  /* Perfectly center the container horizontally */
+  margin: 0 auto; 
+  
+  /* Add breathing room inside the container borders */
+  padding: 20px; 
+  
+  /* Optional: Visual styling to see your box structure */
+  background-color: #2aff91;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.special-font {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+   
+    .highlight-word {
+    color: #ff0000;
+
+
+}
+.a {
+  color: blue; /* Regular link color */
+  text-decoration: underline; /* Regular link underline */
+}
+
+.a:hover {
+  color: red; /* Highlighted color */
+  text-decoration: red; /* Removes underline on hover */
+  background-color: red; /* Highlights the background */
+}
